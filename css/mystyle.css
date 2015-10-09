@@ -1,0 +1,162 @@
+/*background only for homepage*/
+
+body {
+
+	padding: 0px;
+	margin: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: white;
+
+}
+
+/*full background on every page*/
+
+/*html { 
+
+  background: url(../images/Manarola.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}*/
+
+
+.header {
+
+	margin: auto;
+  float: left;
+  background: rgba(203, 203, 203, .3);
+  width: 100%;
+
+}
+
+nav {
+
+	float: left;
+  padding-bottom: 30px;
+  height: 200px;
+  margin-left: 100px;
+
+}
+
+nav ul {
+
+	list-style: none;
+	font-family: "pt sans", sans-serif;
+	font-size: 14pt;
+	text-transform: uppercase;
+	font-weight: bold;
+
+}
+
+nav ul li {
+
+	display: inline-block;
+	padding-top: 90px;
+	padding-left: 30px;
+
+}
+
+nav ul li a {
+
+    font-size: 14pt;
+    text-decoration: none;
+    position: relative;
+    color: #000000;
+
+}
+
+nav ul li a:hover:after {
+
+    content: "";
+    border-bottom: 4px solid #000000;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -5px;
+
+}
+
+.logo {
+
+  float: left;
+  width: 200px;
+  height: 200px;
+  padding-left: 400px;
+
+}
+
+#profile {
+
+  width: 960px;
+  float: left;
+  margin-top: 300px;
+  margin-left: 430px;
+  position: absolute;
+ 
+}
+
+.me {
+
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 200px;
+
+}
+
+
+h1, h2, h3 {
+  
+  font-family: "pt sans", helvetica, sans-serif;
+  margin-bottom: 0em;
+
+}
+
+p {
+  
+  font-family: "pt sans", helvetica, sans-serif;
+  text-align: left;
+  margin-top: 0em;
+
+}
+
+
+#resume {
+
+  width: 960px;
+  float: left;
+  margin-top: 300px;
+  margin-left: 600px;
+  position: absolute;
+
+}
+
+ul {
+
+  font-family: "pt sans";
+
+}
+
+a.click {
+
+  text-decoration: none;
+  font-weight: bold;
+  color: #FF3679;
+}
+
+.imgfloat {
+
+  float: left;
+  margin: 5px;
+ 
+}
+
+#photodeck { 
+
+  width: 960px;
+  height: 100%;
+  margin: 0 auto;
+
+}
